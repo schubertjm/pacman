@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    font-size: 50pt;
+    color: white;
+    margin-left: 50px;
+}
+
+.row {
+    margin: 0px;
+    width: fit-content;
+    height: 50px;
+}
+
+.empty {
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.brick {
+    margin: 0px;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.coin {
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: url('./Images/coin_ani.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cherry {
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: url('./Images/cherry.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pacman {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: url('./Images/Pacman_black.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+#ghost {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: url('./Images/ghost.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+#score, #life, #level {
+    border: 1px solid white;
+    width: 40px;
+    height: 30px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.label {
+    color: white;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.score_img_coin {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.score_img_cherry {
+    height: 60px;
+    width: 60px;
+}
+
+.score_img_pacman {
+    height: 60px;
+    width: 80px;
+}
+
+#next_level {
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+    color: white;
+    margin-top: 10px;
+    display: none;
+}
+
+#press_enter {
+    display: none;
+}
+
+#game_over {
+    display: none;
+    top: 150px;
+    left: 200px;
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+}

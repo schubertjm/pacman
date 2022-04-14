@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="world"></div>
+        <div id="pacman"></div>
+        <div id="ghost"></div>
+        <h1>PACMAN</h1>
+        <div class="flex">
+            <div id="score">0</div>
+            <div class="label"><p>Score</p></div>
+            <div><img class="score_img_coin" src="./Images/coin_ani.gif" alt="Coin"></div>
+            <div class="label"><p>= 10 points</p></div>
+            <div><img class="score_img_cherry" src="./Images/cherry.jpg" alt="Cherry"></div>
+            <div class="label"><p>= 50 points</p></div>
+        </div>
+        <div class="flex">
+            <div id="life">3</div>
+            <div class="label"><p>Life</p></div>
+            <div><img class="score_img_pacman" src="./Images/Pacman_black.gif" alt="Pacman"></div>
+        </div>     
+        <div class="flex">   
+            <div id="level">1</div>
+            <div class="label"><p>Level</p></div>
+            <button id="next_level" onclick="nextLevel()">Next Level</button>
+            <div id="press_enter" class="label"><p>or press Enter</p></div>
+        </div>
+        <div id="game_over"class="label"><p>Game Over... <br><br> Please refresh your screen to play again</p></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
